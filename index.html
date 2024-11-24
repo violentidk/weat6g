@@ -3,23 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Widget</title>
+    <title>Weather Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="weather-container">
-        <div id="current-weather">
-            <h1 id="location">Tallinn</h1>
-            <p id="temperature">Loading...</p>
-            <p id="description">Loading weather details...</p>
-            <div id="icon-container">
-                <img id="weather-icon" alt="Weather Icon" />
-                <h1 id="location">Stockholm</h1>
-            <p id="temperature">Loading...</p>
-            <p id="description">Loading weather details...</p>
-            <div id="icon-container">
-                <img id="weather-icon" alt="Weather Icon" />
-            </div>
+    <div id="weather-dashboard">
+        <!-- Weather boxes -->
+        <div class="weather-box" data-location="Tallinn">
+            <h2 class="location">Tallinn</h2>
+            <p class="temperature">Loading...</p>
+            <p class="description">Loading weather details...</p>
+            <img class="weather-icon" alt="Weather Icon" />
+        </div>
+        <div class="weather-box" data-location="Tartu">
+            <h2 class="location">Tartu</h2>
+            <p class="temperature">Loading...</p>
+            <p class="description">Loading weather details...</p>
+            <img class="weather-icon" alt="Weather Icon" />
+        </div>
+        <div class="weather-box" data-location="Viljandi">
+            <h2 class="location">Viljandi</h2>
+            <p class="temperature">Loading...</p>
+            <p class="description">Loading weather details...</p>
+            <img class="weather-icon" alt="Weather Icon" />
+        </div>
+        <div class="weather-box" data-location="Shiloh PA">
+            <h2 class="location">Shiloh, PA</h2>
+            <p class="temperature">Loading...</p>
+            <p class="description">Loading weather details...</p>
+            <img class="weather-icon" alt="Weather Icon" />
         </div>
     </div>
     <script src="script.js"></script>
