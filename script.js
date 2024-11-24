@@ -1,4 +1,4 @@
-const apiKey = "df8ac744474a42ad888200038242411"; // Replace with your actual API key
+const apiKey = "df8ac744474a42ad888200038242411"; // Replace with your actual API key 
 
 async function fetchWeather(location, useFahrenheit = false) {
     const unit = useFahrenheit ? "f" : "c";
