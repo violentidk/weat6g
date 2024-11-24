@@ -29,6 +29,7 @@ async function fetchWeather() {
 function displayWeather(data) {
     const current = data.current;
     locationElement.textContent = "Tallinn";
+    locationElement.textContent = "Stockholm";
     temperatureElement.textContent = `${Math.round(current.temp_c)}°C`;
     descriptionElement.textContent = current.condition.text;
 
