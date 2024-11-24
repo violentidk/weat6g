@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="weather-widget">
+    <div id="weather-container">
         <div id="current-weather">
-            <h2 id="location">Tallinn</h2>
+            <h1 id="location">Tallinn</h1>
             <p id="temperature">Loading...</p>
-            <p id="description">Loading...</p>
-        </div>
-        <div id="forecast">
-            <!-- The forecast will be dynamically updated -->
+            <p id="description">Loading weather details...</p>
+            <div id="icon-container">
+                <img id="weather-icon" alt="Weather Icon" />
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
