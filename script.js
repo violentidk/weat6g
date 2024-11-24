@@ -9,6 +9,7 @@ async function fetchWeather() {
     try {
         const response = await fetch(
             `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Tallinn&aqi=no`
+            `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Stockholm&aqi=no`
         );
 
         if (!response.ok) {
