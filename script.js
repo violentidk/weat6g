@@ -1,4 +1,4 @@
-const apiKey = "df8ac744474a42ad888200038242411"; // Replace with your actual API key
+const apiKey = "df8ac744474a42ad888200038242411"; // Replace with your actual API key 
 
 async function fetchWeather(location) {
     const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=no`;
