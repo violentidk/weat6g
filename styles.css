@@ -1,4 +1,4 @@
-/* Import Poppins Font */ 
+/* Import Poppins Font */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -48,7 +48,7 @@ body {
     margin-bottom: 5px;
 }
 
-.weather-box .wind-speed {
+.weather-box .local-time {
     font-size: 14px;
     font-style: italic;
 }
