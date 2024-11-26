@@ -1,49 +1,44 @@
+/* Import Poppins Font */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
 }
 
 #weather-dashboard {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     gap: 20px;
-    width: 90%;
-    max-width: 400px;
 }
 
 .weather-box {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
     padding: 20px;
+    border-radius: 15px;
+    color: #fff;
     text-align: center;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
 }
 
-.location {
-    font-size: 1.5em;
+.weather-box h2 {
+    font-weight: 600;
     margin-bottom: 10px;
-    color: #333;
+    font-size: 20px;
 }
 
-.temperature {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin: 5px 0;
-    color: #ff4500;
+.weather-box .temperature {
+    font-size: 28px;
+    font-weight: 600;
 }
 
-.description {
-    font-size: 1.2em;
-    color: #555;
-}
-
-.weather-icon {
-    margin-top: 10px;
-    width: 70px;
-    height: 70px;
+.weather-box .description {
+    font-size: 16px;
 }
